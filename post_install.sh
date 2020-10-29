@@ -10,6 +10,7 @@ service mysql-server start 2>/dev/null
 echo "mysql now installed" > /root/PLUGIN_INFO
 echo "mysql" >> /root/PLUGIN_INFO
 
-
+#obtain the initial root password which was set during installation
+cat $HOME/.mysql_secret
 
 

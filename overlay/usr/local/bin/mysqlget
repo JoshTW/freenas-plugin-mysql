@@ -1,0 +1,6 @@
+#!/bin/sh
+
+get_default_root_password()
+{
+    cat $HOME/.mysql_secret
+}
